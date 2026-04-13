@@ -1,0 +1,42 @@
+.key{
+    width: 100px;
+    background-color: darkcyan;
+    height: 100px;
+    margin: 10px;
+    font-size: 5rem;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.key:hover{
+    background-color: lightseagreen;
+}
+
+#clear{
+    background-color: crimson;
+}
+
+#clear:hover{
+    background-color: #ff4d6d;
+}
+
+#display{
+    width: 320px;
+    height: 60px;
+    margin: 10px;
+    padding: 0 10px;
+    font-size: 2.5rem;
+    background-color: #1a1a2e;
+    color: white;
+    text-align: right;
+    line-height: 60px;
+    overflow: hidden;
+}
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    justify-content: flex-end;
+}
